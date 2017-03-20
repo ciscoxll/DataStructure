@@ -47,6 +47,9 @@ public interface List {
     //删除末元素，并返回之
     public Object removeFirst();
 
+    //删除末元素，并返回之
+    public Object removeLast();
+
     //将处于给定位置的元素替换为新元素，并返回被替换的元素
     public  Object replace(Position p,Object e)
             throws ExcptionPositionInvalid;

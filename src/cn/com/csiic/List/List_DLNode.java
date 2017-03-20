@@ -81,15 +81,23 @@ public class List_DLNode implements List {
             throw new ExcptionBoundaryViolation("意外：企图越过列表后端");
         return prev;
     }
-
+    //将e作为第一个元素插入列表
     @Override
     public Position insertFirst(Object e) {
-        return null;
+        numElem++;
+        DLNode newNode = new DLNode(e,header,header.getNext());
+        header.getNext().setPrev(newNode);
+        header.setPrev(newNode);
+        return newNode;
     }
 
+    //将e作为最后一个元素插入列表
     @Override
     public Position insertLast(Object e) {
-        return null;
+        numElem++;
+        DLNode newNode = new DLNode(e,trailer.getPrev(),trailer);
+        if(null == trailer.getPrev()) System.out.println("!!!Prev of trailer is NULL!!!");
+        return newNode;
     }
 
     @Override
@@ -102,28 +110,53 @@ public class List_DLNode implements List {
         return null;
     }
 
+    //删除给定位置处的元素，并返回之
     @Override
     public Object remove(Position p) throws ExcptionPositionInvalid {
-        return null;
+        DLNode v = checkPosition(p);
+        numElem--;
+        DLNode vPrev = v.getPrev();
+        DLNode vNext = v.getNext();
+        vPrev.setNext(vNext);
+        vNext.setPrev(vPrev);
+        Object vElem = v.getElem();
+        //将该位置（节点）从列表中摘出，以便系统回收其占用的空间
+        v.setNext(null);
+        v.setPrev(null);
+        return vElem;
     }
-
+    //删除首元素，并返回之
     @Override
     public Object removeFirst() {
-        return null;
+
+        return remove(header.getNext());
     }
 
+    //删除末元素，并返回之
+    @Override
+    public Object removeLast() {
+        return remove(trailer.getPrev());
+    }
+
+    //将处于给定位置的元素替换为新元素，并返回被替换的元素
     @Override
     public Object replace(Position p, Object e) throws ExcptionPositionInvalid {
-        return null;
+        DLNode v = checkPosition(p);
+        Object oldElem = v.getElem();
+        v.setElem(e);
+        return oldElem;
     }
 
+    //位置迭代器
     @Override
     public Iterator positions() {
-        return null;
+
+        return new IteratorPosition(this);
     }
 
+    //元素迭代器
     @Override
     public Iterator elements() {
-        return null;
+        return new IteratorElement(this);
     }
 }

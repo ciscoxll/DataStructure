@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14feac57-8345-49a6-abb6-bae907f63e2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStructure.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/List/DLNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/List/ExceptionListEmpty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionBoundaryViolation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionPositionInvalid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/List/Iterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/List/List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/List/List_DLNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/List/Position.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/Vector/ExcptionBoundaryViolation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/Vector/Run.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/Vector/Vector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/Vector/Vector_Array.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/csiic/Vector/Vector_ExtArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DataStructure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/List.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -55,8 +37,10 @@
         <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1489890512305" expanded="true" signature="28:77" ph="/**...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,33 +55,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Position.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/Position.java">
+      <file leaf-file-name="ExcptionPositionInvalid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionPositionInvalid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+            <state relative-caret-position="108">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcptionPositionInvalid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionPositionInvalid.java">
+      <file leaf-file-name="List_DLNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/List_DLNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding>
-                <element signature="e#225#226#0" expanded="false" />
-                <element signature="e#251#252#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List_DLNode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/List_DLNode.java">
+      <file leaf-file-name="IteratorPosition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/IteratorPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
+            <state relative-caret-position="-487">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IteratorElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/IteratorElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
@@ -109,10 +100,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#229#230#0" expanded="false" />
-                <element signature="e#255#256#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,66 +118,11 @@
       <file leaf-file-name="DLNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/DLNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
+            <state relative-caret-position="512">
               <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding>
                 <element signature="e#963#964#0" expanded="true" />
                 <element signature="e#988#989#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4833">
-              <caret line="202" column="17" selection-start-line="202" selection-start-column="17" selection-end-line="202" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#42430#0" expanded="false" />
-                <element signature="e#9376#9377#0" expanded="false" />
-                <element signature="e#9403#9404#0" expanded="false" />
-                <element signature="e#9585#9586#0" expanded="false" />
-                <element signature="e#9617#9618#0" expanded="false" />
-                <element signature="e#10094#10095#0" expanded="false" />
-                <element signature="e#10132#10133#0" expanded="false" />
-                <element signature="e#12774#12775#0" expanded="false" />
-                <element signature="e#12829#12830#0" expanded="false" />
-                <element signature="e#14647#14648#0" expanded="false" />
-                <element signature="e#14692#14693#0" expanded="false" />
-                <element signature="docComment;method#addAll#0;class#ArrayList#0" expanded="false" />
-                <element signature="e#23782#23783#0" expanded="false" />
-                <element signature="e#23836#23837#0" expanded="false" />
-                <element signature="e#24679#24680#0" expanded="false" />
-                <element signature="e#24723#24724#0" expanded="false" />
-                <element signature="e#25680#25681#0" expanded="false" />
-                <element signature="e#25723#25724#0" expanded="false" />
-                <element signature="e#29510#29511#0" expanded="false" />
-                <element signature="e#29547#29548#0" expanded="false" />
-                <element signature="e#29847#29848#0" expanded="false" />
-                <element signature="e#29879#29880#0" expanded="false" />
-                <element signature="e#30204#30205#0" expanded="false" />
-                <element signature="e#30249#30250#0" expanded="false" />
-                <element signature="e#31610#31611#0" expanded="false" />
-                <element signature="e#31652#31653#0" expanded="false" />
-                <element signature="e#31686#31687#0" expanded="false" />
-                <element signature="e#31723#31724#0" expanded="false" />
-                <element signature="e#31761#31762#0" expanded="false" />
-                <element signature="e#31802#31803#0" expanded="false" />
-                <element signature="e#37291#37292#0" expanded="false" />
-                <element signature="e#37342#37343#0" expanded="false" />
-                <element signature="e#37784#37785#0" expanded="false" />
-                <element signature="e#37829#37830#0" expanded="false" />
-                <element signature="e#38234#38235#0" expanded="false" />
-                <element signature="e#38308#38309#0" expanded="false" />
-                <element signature="e#38948#38949#0" expanded="false" />
-                <element signature="e#39006#39007#0" expanded="false" />
-                <element signature="e#39627#39628#0" expanded="false" />
-                <element signature="e#39680#39681#0" expanded="false" />
-                <element signature="e#39726#39727#0" expanded="false" />
-                <element signature="e#39783#39784#0" expanded="false" />
-                <element signature="e#42175#42176#0" expanded="false" />
-                <element signature="e#42242#42243#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -339,8 +272,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -842,12 +775,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66866565" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23718888" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23718888" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -898,30 +831,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionPositionInvalid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#251#252#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,10 +843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#229#230#0" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,7 +895,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1489890512305" expanded="true" signature="28:77" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,10 +913,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#251#252#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,10 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#229#230#0" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,50 +1103,7 @@
         <state relative-caret-position="4833">
           <caret line="202" column="17" selection-start-line="202" selection-start-column="17" selection-end-line="202" selection-end-column="17" />
           <folding>
-            <element signature="e#0#42430#0" expanded="false" />
-            <element signature="e#9376#9377#0" expanded="false" />
-            <element signature="e#9403#9404#0" expanded="false" />
-            <element signature="e#9585#9586#0" expanded="false" />
-            <element signature="e#9617#9618#0" expanded="false" />
-            <element signature="e#10094#10095#0" expanded="false" />
-            <element signature="e#10132#10133#0" expanded="false" />
-            <element signature="e#12774#12775#0" expanded="false" />
-            <element signature="e#12829#12830#0" expanded="false" />
-            <element signature="e#14647#14648#0" expanded="false" />
-            <element signature="e#14692#14693#0" expanded="false" />
             <element signature="docComment;method#addAll#0;class#ArrayList#0" expanded="false" />
-            <element signature="e#23782#23783#0" expanded="false" />
-            <element signature="e#23836#23837#0" expanded="false" />
-            <element signature="e#24679#24680#0" expanded="false" />
-            <element signature="e#24723#24724#0" expanded="false" />
-            <element signature="e#25680#25681#0" expanded="false" />
-            <element signature="e#25723#25724#0" expanded="false" />
-            <element signature="e#29510#29511#0" expanded="false" />
-            <element signature="e#29547#29548#0" expanded="false" />
-            <element signature="e#29847#29848#0" expanded="false" />
-            <element signature="e#29879#29880#0" expanded="false" />
-            <element signature="e#30204#30205#0" expanded="false" />
-            <element signature="e#30249#30250#0" expanded="false" />
-            <element signature="e#31610#31611#0" expanded="false" />
-            <element signature="e#31652#31653#0" expanded="false" />
-            <element signature="e#31686#31687#0" expanded="false" />
-            <element signature="e#31723#31724#0" expanded="false" />
-            <element signature="e#31761#31762#0" expanded="false" />
-            <element signature="e#31802#31803#0" expanded="false" />
-            <element signature="e#37291#37292#0" expanded="false" />
-            <element signature="e#37342#37343#0" expanded="false" />
-            <element signature="e#37784#37785#0" expanded="false" />
-            <element signature="e#37829#37830#0" expanded="false" />
-            <element signature="e#38234#38235#0" expanded="false" />
-            <element signature="e#38308#38309#0" expanded="false" />
-            <element signature="e#38948#38949#0" expanded="false" />
-            <element signature="e#39006#39007#0" expanded="false" />
-            <element signature="e#39627#39628#0" expanded="false" />
-            <element signature="e#39680#39681#0" expanded="false" />
-            <element signature="e#39726#39727#0" expanded="false" />
-            <element signature="e#39783#39784#0" expanded="false" />
-            <element signature="e#42175#42176#0" expanded="false" />
-            <element signature="e#42242#42243#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1255,14 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/Vector/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -1271,21 +1124,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionPositionInvalid.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#251#252#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="675">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1489890512305" expanded="true" signature="28:77" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionBoundaryViolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1298,20 +1158,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionBoundaryViolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#229#230#0" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/DLNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
+        <state relative-caret-position="512">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
             <element signature="e#963#964#0" expanded="true" />
@@ -1322,8 +1171,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/List_DLNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
+        <state relative-caret-position="162">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/IteratorPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/IteratorElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/csiic/List/ExcptionPositionInvalid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
